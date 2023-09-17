@@ -91,7 +91,7 @@ function Board(){
       setResult([result[0],result[1]+1,result[2]]);
     }
     setXIsNext(true);
-    if(j==1){
+    if(j===1){
       setResult([0,0,0]);
     }
 
